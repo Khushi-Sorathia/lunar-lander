@@ -93,7 +93,7 @@ agent_dir='../'
 
 
 # create output directory
-mkdir -p "${output_dir}"
+mkdir -p "${D:\lunar lander\lunar-lander}"
 
 # Switch to directory where we execute train_agent.py
 cd "$agent_dir"

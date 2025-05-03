@@ -96,7 +96,7 @@ def run_and_save_simulations(env, # environment
     my_agent.load_state(state=input_dictionary)
     #
     # instantiate environment
-    env = gym.make('LunarLander-v2')
+    env = gym.make('LunarLander-v3')
     #
     durations = []
     returns = []
@@ -144,7 +144,7 @@ def run_and_save_simulations(env, # environment
     
 
 # Create environment
-env = gym.make('LunarLander-v2')
+env = gym.make('LunarLander-v3')
 
 run_and_save_simulations(env=env,
                             input_filename=input_filename,

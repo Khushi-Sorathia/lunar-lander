@@ -6,7 +6,7 @@ const VideoGallery = () => {
   
   // Total number of episodes
   const totalEpisodes = 20;
-  
+  //qwerty
   // Function to get video URL for a specific episode
   const getVideoUrl = (episodeNumber) => {
     return `/videos/rl-video-episode-${episodeNumber}.mp4`;

@@ -13,7 +13,7 @@ current_state = None
 def reset_environment():
     global env, current_state
     if env is None:
-        env = gym.make('LunarLander-v2', render_mode='rgb_array')
+        env = gym.make('LunarLander-v3', render_mode='rgb_array')
     current_state, _ = env.reset()
     return get_game_state()
 
